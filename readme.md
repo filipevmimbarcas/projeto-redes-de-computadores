@@ -63,7 +63,7 @@ Mova o script para o diretório /usr/local/bin (que está no seu $PATH) e o reno
 
 ### Guia de uso do netcli
 
-O comando principal é `netcli`, seguido de uma das quatro ações disponíveis.
+O comando principal é `netcli`, seguido de uma das cinco ações disponíveis.
 
 
 ### 1. Permitir tráfego
@@ -116,7 +116,7 @@ Deleta uma regra especifica
 delete drop tcp 22 --source 192.168.20.0/24
 ```
 
-### 4. Limpar todas as regras
+### 5. Limpar todas as regras
 
 Remove todas as regras do firewall
 
